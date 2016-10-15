@@ -1,67 +1,107 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>heoyunjee github page by ooyunjee</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen"> -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-    <link rel="icon" href="https://ooyunjee.github.io/img/favicon/favicon.png" sizes="16x16" type="image/png">
-    <link rel="stylesheet" href="https://ooyunjee.github.io/css/index-page.css">
-    <!-- <link rel="stylesheet" href="css/index-page.css"> -->
-    <style>
-    #map {
-      width: 750px;
-      height: 500px;
-      padding: 100px 0;
-      margin: 0 auto;
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mini Project</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+  <!-- <script src="../../Modules/JS/gs-utils.js"></script> -->
+  <!-- <link rel="stylesheet" href="css/grid-system-static.css" media="screen" title="no title"> -->
+  <!-- <link rel="stylesheet" href="css/grid-system-fluid.css" media="screen" title="no title"> -->
+  <!-- <link rel="stylesheet" href="../../Lecture/Modules/CSS/grid-system-fluid.css" media="screen" title="no title"> -->
+  <!-- <link rel="stylesheet" href="../../Lecture/Modules/CSS/grid-system-static.css" media="screen" title="no title"> -->
+  <!-- <link rel="stylesheet" href="../../Modules/CSS/initialization/normalize.css" media="screen" title="no title"> -->
+  <link rel="stylesheet" href="https://ooyunjee.github.io/css/miniproject-about.css" media="screen" title="no title">
+  <link rel="stylesheet" href="https://ooyunjee.github.io/css/miniproject-nav.css" media="screen" title="no title">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7lDv5ltbm7CfFAr3Xev696EGSOuHzbrY" type="text/javascript"></script>
+  <script type="text/javascript">
+    google.maps.event.addDomListener(window, 'load', init);
+    function init() {
+      var mapOptions = {
+
+          zoom: 5,
+
+          // home: 37.5539829,126.9193599
+          center: new google.maps.LatLng(37.5539829,126.9193599),
+          styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+      };
+
+      var mapElement = document.getElementById('map');
+      var map = new google.maps.Map(mapElement, mapOptions);
+
+      var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(37.5539829,126.9193599),
+          map: map,
+          title: 'Snazzy!'
+      });
     }
-    </style>
-    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen"> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7lDv5ltbm7CfFAr3Xev696EGSOuHzbrY" type="text/javascript"></script>
-    <script type="text/javascript">
-      google.maps.event.addDomListener(window, 'load', init);
-      function init() {
-        var mapOptions = {
+  </script>
+  <style>
+  #map {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .main {
+    padding-bottom: 0;
+  }
+  </style>
+</head>
+<body>
+  <a class="a11y" href="#content">본문 바로가기</a>
+  <div class="container1">
+    <div class="nav align-center">
+      <a href="index.html"><h1>Yunjee</h1></a>
+      <nav class="navigation">
+        <h1 class="a11y">Main Menu</h1>
+        <ul class="main-menu">
+          <li><a href="https://ooyunjee.github.io/miniproject-project.html" class="nav-project" title="go to projcet">project</a></li>
+          <li><a href="https://ooyunjee.github.io/blog" class="nav-blog" title="go to blog">blog</a></li>
+          <li><a href="https://ooyunjee.github.io/blog/about" class="nav-about" title="go to about">about</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrap-view-article">
+      <div class="main">
+        <div class="main-cell">
+          <h2>Yunjee Heo</h2>
+          <p>Front-end Developer</p>
+          <div class="profile-img">
+            <img src="../img/profile/profile-1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer">
+        <div id="map"></div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <script src="js/miniproject.js" charset="utf-8"></script> -->
+  <script type="text/javascript">
+  $(window).load(function(){
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      var vh = $(window).height();
 
-            zoom: 5,
+      if (scroll >= (vh * 0.8)) {
+        $(".nav").addClass("nav_fixed");
+      } else {
+        $(".nav").removeClass("nav_fixed");
+      }
 
-            // home: 37.5539829,126.9193599
-            center: new google.maps.LatLng(37.5539829,126.9193599),
-            styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-        };
-
-        var mapElement = document.getElementById('map');
-        var map = new google.maps.Map(mapElement, mapOptions);
-
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(37.5539829,126.9193599),
-            map: map,
-            title: 'Snazzy!'
+      if(scroll>100) {
+        $(".cover-cell").css({
+          'opacity': 0.3
+        });
+      } else {
+        $(".cover-cell").css({
+          'opacity': 1
         });
       }
-    </script>
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <h1 class="header-name"><a href="https://ooyunjee.github.io">Yunjee</a></h1>
-        <nav class="nav">
-          <ul class="main-menu">
-            <li><a href="https://ooyunjee.github.io/project.html">project</a></li>
-            <li><a href="https://ooyunjee.github.io/blog" class="blog">blog</a></li>
-            <li><a href="https://ooyunjee.github.io/blog/about">about</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main class="main">
-        {{ content }}
-        <div id="map"></div>
-      </main>
-      <footer class="footer">
-        <p class="footer-credits">This page was generated by <a href="https://github.com/ooyunjee">Yunjee Heo</a>.</p>
-      </footer>
-    </div>
-  </body>
+
+    });
+   });
+  </script>
+</body>
 </html>
