@@ -24,18 +24,16 @@ categories: jekyll update
 >**Tim Berners - Lee**
 
 * 장애에 대한 이해
-
-  * 시각 장애 - 전맹, 저시력
-  * 청각 장애
-  * 지체 장애 - 절단 및 지체기능 장애
-  * 뇌병변 장애
+    * 시각 장애 - 전맹, 저시력
+    * 청각 장애
+    * 지체 장애 - 절단 및 지체기능 장애
+    * 뇌병변 장애
 
 
 * 환경에 대한 이해 다양한 Platform
-
-  * Cross Browsing
-  * SEO(Search Engine Optimization) [^1]
-  * 저사양 또는 저속회선
+    * Cross Browsing
+    * SEO(Search Engine Optimization) [^1]
+    * 저사양 또는 저속회선
 
 -----
 
@@ -53,17 +51,17 @@ categories: jekyll update
 
 * 가이드라인 준수
 
-> - 4가지 원칙
-> **P** erceivable(인지, 자각)
-> **O** perable(운용)
-> **U** nderstandable(이해)
-> **R** obust(탄탄한, 견고한)
+> * 4가지 원칙
+>   * **P** erceivable(인지, 자각)
+>   * **O** perable(운용)
+>   * **U** nderstandable(이해)
+>   * **R** obust(탄탄한, 견고한)
 >
 > - [참고 - 웹 표준의 이해](http://webdir.tistory.com/34)
 > - [WCAG 2.0](https://www.w3.org/WAI/): Web Content Accessibility Guidelines
 
-* 웹 표준 준수
 
+* **웹 표준 준수**
 > - HTML5
 > - CSS3
 > - JavaScript
@@ -78,11 +76,11 @@ categories: jekyll update
 -----
 
 **컨텐츠 모델(Contents Model)**
- 명확한 정보구조 설계 및 구성을 위해 카테고리를 정의하여 각 요소별로 비슷한 성격을 가지고 있는 것끼리 그룹화 한 것.
-  * 카테고리
-   Sectioning Root, Metadata Content, Flow Content, Sectioning Content, Heading Content, Phrasing Content, Embedded Content, Interactive Content, Palpable Content, Script-supporting Elements, Transparent Content
+- 명확한 정보구조 설계 및 구성을 위해 카테고리를 정의하여 각 요소별로 비슷한 성격을 가지고 있는 것끼리 그룹화 한 것.
+    - 카테고리
+   >Sectioning Root, Metadata Content, Flow Content, Sectioning Content, Heading Content, Phrasing Content, Embedded Content, Interactive Content, Palpable Content, Script-supporting Elements, Transparent Content
 
- * Sectioning Content
+ * **Sectioning Content**
 
    ```html
    <article></article>
@@ -109,9 +107,6 @@ categories: jekyll update
  <body></body>
  ```
 
-
-**API**
-
 **Markup**
  * tag, element, content
 
@@ -127,7 +122,7 @@ categories: jekyll update
 ```
 
 **Doctype**
-모든 웹 브라우저에서 표준 모드(Standards Mode)로 렌더링될 수 있도록 하는 역할
+* 모든 웹 브라우저에서 표준 모드(Standards Mode)로 렌더링될 수 있도록 하는 역할
 
 ```html
 <!DOCTYPE html>
@@ -140,15 +135,14 @@ categories: jekyll update
 ```
 
 **Semantic Markup**
-컴퓨터가 웹 정보자원의 의미를 이해할 수 있도록 문서의 논리적인 구조를 묘사하는 것
+* 컴퓨터가 웹 정보자원의 의미를 이해할 수 있도록 문서의 논리적인 구조를 묘사하는 것
 
 > **장점**
-> 접근성이 좋아짐
-> SEO(Search Engine Optimization)
-> 수정이 용이해짐
-> 코드 가독성이 좋아짐
-> 코드와 데이터의 재사용성이 높아짐
-
+> * 접근성이 좋아짐
+> * SEO(Search Engine Optimization)
+> * 수정이 용이해짐
+> * 코드 가독성이 좋아짐
+> * 코드와 데이터의 재사용성이 높아짐
 
 ```html
 <!-- 섹션의 주제 -->
