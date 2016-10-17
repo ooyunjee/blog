@@ -50,21 +50,20 @@ categories: jekyll update
 **웹 접근성 보장 및 개선을 위한 두가지 방법론**
 
 * 가이드라인 준수
+     * 4가지 원칙
+> **P** erceivable(인지, 자각)  
+> **O** perable(운용)  
+> **U** nderstandable(이해)  
+> **R** obust(탄탄한, 견고한)    
 
-> * 4가지 원칙
->   * **P** erceivable(인지, 자각)
->   * **O** perable(운용)
->   * **U** nderstandable(이해)
->   * **R** obust(탄탄한, 견고한)
->
-> - [참고 - 웹 표준의 이해](http://webdir.tistory.com/34)
-> - [WCAG 2.0](https://www.w3.org/WAI/): Web Content Accessibility Guidelines
+- [참고 - 웹 표준의 이해](http://webdir.tistory.com/34)
+- [WCAG 2.0](https://www.w3.org/WAI/): Web Content Accessibility Guidelines   
 
 
 * **웹 표준 준수**
-> - HTML5
-> - CSS3
-> - JavaScript
+> HTML5  
+> CSS3  
+> JavaScript  
 
 
 [^1]: 검색 엔진 최적화. 검색 엔진에서 특정 키워드로 검색 되었을때, 자신의 포스트가 상위에 노출되게 하는 것.
@@ -91,21 +90,24 @@ categories: jekyll update
 
 **아웃라인 알고리즘(Outline Algorithm)**
  * 정보 구조를 명확히 할 수 있도록 하기 위함.
- * 웹 페이지의 정보 구조를 판별할 수 있는 개념(책의 목차)
+ * 웹 페이지의 정보 구조를 판별할 수 있는 개념(책의 목차)     
 
- ```html
- <!-- heading content -->
- <h1></h1>
- <h2></h2>
+```html
+<!-- heading content -->
+<h1></h1>
+<h2></h2>
 
-  <!-- sectioning content -->
- <section></section>
- <article></article>
+<!-- sectioning content -->
+<section></section>
+<article></article>
+<nav></nav>
+<aside></aside>
+<main></main>
 
- <!-- sectioning root -->
- <blockquote></blockquote>
- <body></body>
- ```
+<!-- sectioning root -->
+<blockquote></blockquote>
+<body></body>
+```
 
 **Markup**
  * tag, element, content
@@ -146,21 +148,24 @@ categories: jekyll update
 
 ```html
 <!-- 섹션의 주제 -->
-<header>
+<header></header>
 
 <!-- 다른 페이지나 현재 페이지의 특성 부분 -->
-<nav>
+<nav></nav>
+
+<!-- 문서의 주요 컨텐츠 -->
+<main></main>
 
 <!-- 문서나 애플리케이션의 섹션 -->
 <!-- 컨텐츠를 연관된 내용으로 묶은 형태로, 소제목과 함께 표시 -->
-<section>
+<section></section>
 
 <!-- 문서, 페이지, 사이트 등에서 하나의 독립된 요소 -->
 <!-- 따로 떼어내어 사용할 수 있는 내용 -->
-<article>
+<article></article>
 
 <!-- 현재 문서의 컨텐츠와 큰 관련이 없는 부분 -->
-<aside>
+<aside></aside>
 
 <!-- 24시간제(YYYY-MM-DD/ HH:MM:SS) -->
 <!-- 2013-05-06T14:00:00+09:00 -->
@@ -171,10 +176,10 @@ categories: jekyll update
 <mark>
 
 <!-- 그림, 사진, 일러스트 등의 컨텐트에 연관된 캡션을 표시 -->
-<figure>
+<figure></figure>
 
 <!-- 통상 작성자, 관련문서에 대한 링크, 저작권 표시 등 섹션에 대한 정보 -->
-<footer>
+<footer></footer>
 ```
 
 ----
