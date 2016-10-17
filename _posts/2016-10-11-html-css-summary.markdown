@@ -17,7 +17,7 @@ categories: jekyll update
 ----------
 
 
-#### **Web Accessibility**
+**Web Accessibility**
 
 >The power of the Web is in its universality, access by everyone regardless of disability is an essential aspect.
 >
@@ -35,22 +35,21 @@ categories: jekyll update
     * SEO(Search Engine Optimization) [^1]
     * 저사양 또는 저속회선
 
------
 
 
-#### **Web Standards**
+**Web Standards**
 1. HTML5: 건강한 신체
 2. CSS3: 근사한 스타일링
 3. JavaScript: 스마트한 두뇌
 
 >웹 표준: [World Wide Web Consortiums](https://www.w3.org)
 
-----
 
 **웹 접근성 보장 및 개선을 위한 두가지 방법론**
 
 * 가이드라인 준수
      * 4가지 원칙
+
 > **P** erceivable(인지, 자각)  
 > **O** perable(운용)  
 > **U** nderstandable(이해)  
@@ -71,7 +70,6 @@ categories: jekyll update
 
 ### 2. HTML5
 
------
 
 **컨텐츠 모델(Contents Model)**
 - 명확한 정보구조 설계 및 구성을 위해 카테고리를 정의하여 각 요소별로 비슷한 성격을 가지고 있는 것끼리 그룹화 한 것.
