@@ -37,7 +37,8 @@ categories: jekyll update
 
 
 
-**Web Standards**
+**Web Standards**  
+
 1. HTML5: 건강한 신체
 2. CSS3: 근사한 스타일링
 3. JavaScript: 스마트한 두뇌
@@ -59,7 +60,8 @@ categories: jekyll update
 - [WCAG 2.0](https://www.w3.org/WAI/): Web Content Accessibility Guidelines   
 
 
-* **웹 표준 준수**
+* **웹 표준 준수**  
+
 > HTML5  
 > CSS3  
 > JavaScript  
