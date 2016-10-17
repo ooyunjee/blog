@@ -73,7 +73,8 @@ categories: jekyll update
 ### 2. HTML5
 
 
-**컨텐츠 모델(Contents Model)**
+**컨텐츠 모델(Contents Model)**  
+
 - 명확한 정보구조 설계 및 구성을 위해 카테고리를 정의하여 각 요소별로 비슷한 성격을 가지고 있는 것끼리 그룹화 한 것.
     - 카테고리
    >Sectioning Root, Metadata Content, Flow Content, Sectioning Content, Heading Content, Phrasing Content, Embedded Content, Interactive Content, Palpable Content, Script-supporting Elements, Transparent Content
@@ -87,7 +88,8 @@ categories: jekyll update
    <section></section>
    ```
 
-**아웃라인 알고리즘(Outline Algorithm)**
+**아웃라인 알고리즘(Outline Algorithm)**  
+
  * 정보 구조를 명확히 할 수 있도록 하기 위함.
  * 웹 페이지의 정보 구조를 판별할 수 있는 개념(책의 목차)     
 
@@ -108,7 +110,8 @@ categories: jekyll update
 <body></body>
 ```
 
-**Markup**
+**Markup**  
+
  * tag, element, content
 
 ```html
@@ -122,28 +125,31 @@ categories: jekyll update
 <input type="text" id="user" required> <!-- required: 논리속성 -->
 ```
 
-**Doctype**
+**Doctype**  
+
 * 모든 웹 브라우저에서 표준 모드(Standards Mode)로 렌더링될 수 있도록 하는 역할
 
 ```html
 <!DOCTYPE html>
 ```
 
-**Encoding**
+**Encoding**  
 
 ```html
 <meta charset="utf-8">
 ```
 
-**Semantic Markup**
+**Semantic Markup**  
+
 * 컴퓨터가 웹 정보자원의 의미를 이해할 수 있도록 문서의 논리적인 구조를 묘사하는 것
 
-> **장점**
-> * 접근성이 좋아짐
-> * SEO(Search Engine Optimization)
-> * 수정이 용이해짐
-> * 코드 가독성이 좋아짐
-> * 코드와 데이터의 재사용성이 높아짐
+> **장점**  
+>
+> - 접근성이 좋아짐  
+> - SEO(Search Engine Optimization)  
+> - 수정이 용이해짐  
+> - 코드 가독성이 좋아짐  
+> - 코드와 데이터의 재사용성이 높아짐  
 
 ```html
 <!-- 섹션의 주제 -->
