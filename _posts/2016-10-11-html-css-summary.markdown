@@ -1,12 +1,12 @@
 ---
-layout: default
-title:  "HTML & CSS"
+layout: post
+title:  "웹 접근성/웹 표준 & HTML & CSS"
 date:   2016-10-11 12:09:39 +0900
 categories: jekyll update
 ---
-
-**Front-End School Week1**
-=========================
+<!--
+**웹 접근성/웹 표준, HTML, CSS**
+========================= -->
 
 
 ### 1. Web Accessibility & Web Standards
@@ -68,7 +68,6 @@ categories: jekyll update
 
 [^1]: 검색 엔진 최적화. 검색 엔진에서 특정 키워드로 검색 되었을때, 자신의 포스트가 상위에 노출되게 하는 것.
 
-----
 
 ### 2. HTML5
 
@@ -182,6 +181,5 @@ categories: jekyll update
 <footer></footer>
 ```
 
-----
 
 ### 3. CSS3

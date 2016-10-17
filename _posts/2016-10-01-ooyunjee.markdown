@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "ooyunjee"
 date:   2016-10-01 03:41:39 +0900
 categories: jekyll update
